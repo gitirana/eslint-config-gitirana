@@ -1,6 +1,6 @@
 {
   "name": "@gitirana/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint config for nodejs and reactjs",
   "main": "index.js",
   "scripts": {
