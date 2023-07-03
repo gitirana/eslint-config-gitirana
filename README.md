@@ -1,21 +1,38 @@
-# My ESLint config
+# 🎨 My ESLint config
 
-## Whats included?
+## The Rules:
 
-- Standard config base;
-- React plugin;
-- React Hooks plugin;
-- JSX a11y plugin;
-- Prettier;
+<ul>
+  <li>[x] printWidth: 100</li>
+  <li>[x] tabWidth: 2</li>
+  <li>[x] singleQuote: false</li>
+  <li>[x] trailingComma: 'all'</li>
+  <li>[x] arrowParens: 'always'</li>
+  <li>[x] semi: true</li>
+</ul>
+
 
 ## Setup
 
-1. Install the dependencies
+1. If you use VSCode: Install eslint extension
+
+[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+2. Install the dependencies
 ```
 npm i -D eslint @gitirana/eslint-config
 ```
 
-2. Create a `.eslintrc.json` file extending the config:
+3. Add this code to your settings.json
+> If you use WSL, add the code on te Remote Settings
+
+```
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+},
+```
+
+4. Create a `.eslintrc.json` file extending the config:
 
 #### For React:
 ```
