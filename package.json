@@ -39,5 +39,6 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+  "devDependencies": {}
 }
